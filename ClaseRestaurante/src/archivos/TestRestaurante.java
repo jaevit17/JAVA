@@ -6,6 +6,16 @@ public class TestRestaurante {
 
 		Restaurante rest1=new Restaurante();
 		Restaurante rest2=new Restaurante();
+		//Creado
+		System.out.println("====Restautante 1: Creado====");
+		System.out.println("Nombre: "+rest1.nombre);
+		System.out.println("Calificacion: "+rest1.calificacion);
+		System.out.println("Direccion: "+rest1.direccion);
+		
+		System.out.println("====Restautante 2: Creado====");
+		System.out.println("Nombre: "+rest2.nombre);
+		System.out.println("Calificacion: "+rest2.calificacion);
+		System.out.println("Direccion: "+rest2.direccion);
 		
 		rest1.calificacion="Buena";
 		rest1.direccion="Amaguaña Centro";
@@ -14,7 +24,7 @@ public class TestRestaurante {
 		rest2.calificacion="Muy Buena";
 		rest2.direccion="Colibri El mirador";
 		rest2.nombre="JAEVIT FOOD";
-		
+		//Valores asignados
 		System.out.println("====Restautante 1: Valores Asignados====");
 		System.out.println("Nombre: "+rest1.nombre);
 		System.out.println("Calificacion: "+rest1.calificacion);
@@ -24,7 +34,6 @@ public class TestRestaurante {
 		System.out.println("Nombre: "+rest2.nombre);
 		System.out.println("Calificacion: "+rest2.calificacion);
 		System.out.println("Direccion: "+rest2.direccion);
-		
 
 	}
 
