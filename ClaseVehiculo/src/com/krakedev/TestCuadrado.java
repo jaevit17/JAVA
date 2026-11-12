@@ -7,10 +7,10 @@ public class TestCuadrado {
 		Cuadrado figura2=new Cuadrado();
 		Cuadrado figura3=new Cuadrado();
 		
-		figura1.lado=5;
-		figura2.lado=6;
-		figura3.lado=22;
-		
+		figura1.setLado(7);
+		figura2.setLado(6);
+		figura3.setLado(21);
+
 		double resultA1=figura1.calcularArea();
 		double resultP1=figura1.calcularPerimetro();
 		System.out.println("====Cuadrado 1====");
@@ -28,8 +28,6 @@ public class TestCuadrado {
 		System.out.println("====Cuadrado 3====");
 		System.out.println("Area3: "+resultA3);
 		System.out.println("Perimetro3: "+resultP3);
-		
-		
 	}
 
 }

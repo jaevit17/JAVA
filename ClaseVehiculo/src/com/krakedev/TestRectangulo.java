@@ -4,8 +4,8 @@ public class TestRectangulo {
 
 	public static void main(String[] args) {
 		Rectangulo figura1=new Rectangulo();
-		figura1.altura=30;
-		figura1.base=60;		
+		figura1.setAltura(30);
+		figura1.setBase(60);		
 		int resultA1=figura1.calcularArea();
 		double resultP1=figura1.calcularPerimetro();
 		System.out.println("====Rectangulo 1====");
@@ -14,8 +14,8 @@ public class TestRectangulo {
 		
 		
 		Rectangulo figura2=new Rectangulo();
-		figura2.altura=30;
-		figura2.base=90;
+		figura2.setAltura(30);
+		figura2.setBase(90);
 		int resultA2=figura2.calcularArea();
 		double resultP2=figura2.calcularPerimetro();
 		System.out.println("====Rectangulo 2====");

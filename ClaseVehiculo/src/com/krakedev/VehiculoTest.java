@@ -4,25 +4,24 @@ public class VehiculoTest {
 
 	public static void main(String[] args) {
 		
-		Vehiculo v;
-		v=new Vehiculo();
+		Vehiculo v=new Vehiculo();
 		System.out.println("Vehiculo 1: CREADO");
-		v.anio=2012;
-		v.marca="SUZUKI";
-		v.modelo="GSX";
-		System.out.println("Año: "+v.anio);
-		System.out.println("Marca: "+v.marca);
-		System.out.println("Modelo: "+v.modelo);
+		v.setAnio(2016);
+		v.setMarca("SUZUKI");
+		v.setModelo("GSX");
+		System.out.println("Año: "+v.getAnio());
+		System.out.println("Marca: "+v.getMarca());
+		System.out.println("Modelo: "+v.getModelo());
 		
 		
 		Vehiculo v2=new Vehiculo();
 		System.out.println("Vehiculo 2: CREADO");
-		v2.anio=2016;
-		v2.marca="MAZDA";
-		v2.modelo="CX3";
-		System.out.println("Año: "+v2.anio);
-		System.out.println("Marca: "+v2.marca);
-		System.out.println("Modelo: "+v2.modelo);
+		v2.setAnio(2014);
+		v2.setMarca("MAZDA");
+		v2.setModelo("CX3");
+		System.out.println("Año: "+v2.getAnio());
+		System.out.println("Marca: "+v2.getMarca());
+		System.out.println("Modelo: "+v2.getModelo());
 		
 	}
 
