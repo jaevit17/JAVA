@@ -8,7 +8,7 @@ public class VehiculoTest {
 		System.out.println("Vehiculo 1: CREADO");
 		v.setAnio(2016);
 		v.setMarca("SUZUKI");
-		v.setModelo("GSX");
+		v.setModelo("Gixxer");
 		System.out.println("Año: "+v.getAnio());
 		System.out.println("Marca: "+v.getMarca());
 		System.out.println("Modelo: "+v.getModelo());
@@ -17,8 +17,8 @@ public class VehiculoTest {
 		Vehiculo v2=new Vehiculo();
 		System.out.println("Vehiculo 2: CREADO");
 		v2.setAnio(2014);
-		v2.setMarca("MAZDA");
-		v2.setModelo("CX3");
+		v2.setMarca("KAWASAKI");
+		v2.setModelo("ZX4RR");
 		System.out.println("Año: "+v2.getAnio());
 		System.out.println("Marca: "+v2.getMarca());
 		System.out.println("Modelo: "+v2.getModelo());

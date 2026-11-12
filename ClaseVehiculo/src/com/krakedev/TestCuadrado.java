@@ -7,9 +7,9 @@ public class TestCuadrado {
 		Cuadrado figura2=new Cuadrado();
 		Cuadrado figura3=new Cuadrado();
 		
-		figura1.setLado(7);
-		figura2.setLado(6);
-		figura3.setLado(21);
+		figura1.setLado(8);
+		figura2.setLado(4);
+		figura3.setLado(15);
 
 		double resultA1=figura1.calcularArea();
 		double resultP1=figura1.calcularPerimetro();
