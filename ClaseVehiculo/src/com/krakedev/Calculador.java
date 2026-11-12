@@ -22,6 +22,10 @@ public class Calculador {
 		double resultado=(valor1+valor2+valor3)/3;
 		return resultado;
 	}
+	public double calcularDescuento(double precio, double porcentaje) {
+		double descuento=precio-(precio/100)*porcentaje;
+		return descuento;
+	}
 	public void mostrarResultado() {
 		System.out.println("Ahorita no joven, Salí al almuerzo. Regreso en 15 minutos");
 	}

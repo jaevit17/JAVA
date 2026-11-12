@@ -3,6 +3,7 @@ package com.krakedev;
 public class TestCalculadora {
 
 	public static void main(String[] args) {
+		//objeto1
 		Calculador c1=new Calculador();
 		int suma=c1.sumar(2, 3);
 		System.out.println("Suma: 2+3 = "+suma);
@@ -18,6 +19,12 @@ public class TestCalculadora {
 		
 		double promediar=c1.promediar(3, 6, 9);
 		System.out.println("Promedio de 2,6,8 es: "+promediar);
+		
+		double descuento=c1.calcularDescuento(100, 40);
+		System.out.println("Precio con descuento: "+ descuento);
+		//objeto2
+		Calculador c2=new Calculador();
+		
 		
 		c1.mostrarResultado();
 	}

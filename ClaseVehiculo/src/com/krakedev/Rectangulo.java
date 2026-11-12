@@ -1,9 +1,22 @@
 package com.krakedev;
 
 public class Rectangulo {
-	public int base;
-	public int altura;
-	
+	private int base;
+	private int altura;
+	//----getters-setters----
+	public void setBase(int base) {
+		this.base=base;
+	}
+	public int getBase() {
+		return base;
+	}
+	public void setAltura(int altura) {
+		this.altura=altura;
+	}
+	public int getAltura() {
+		return altura;
+	}
+	//----METODOS----
 	public int calcularArea() {
 		int area=base*altura;
 		return  area;
