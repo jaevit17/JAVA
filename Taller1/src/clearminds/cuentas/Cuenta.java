@@ -33,5 +33,24 @@ public class Cuenta {
 		this.tipo=tipo;
 		this.saldo=saldo;
 	}
-
+	//----CONSTRUCTORES----
+	public void imprimir() {
+		System.out.println("         CUENTA");
+		System.out.println("************************");
+		System.out.println("Numero de Cuenta: "+id);
+		System.out.println("Tipo: "+tipo);
+		System.out.println("Saldo: USD "+saldo);
+		System.out.println("************************");
+	}
+	public void imprimirConMiEstilo() {
+		System.out.println("   ✴︎ Banco SOL FINANCE");
+		System.out.println("     Estimado Usuario");
+		System.out.println("    ====SU CUENTA:====");
+		System.out.println("╰┈➤ Numero: "+id);
+		System.out.println("╰┈➤ Categoria: "+tipo);
+		System.out.println("╰┈➤ Dinero: USD "+saldo);
+		System.out.println("          ✈︎-----");
+	}
+		
+	
 }
