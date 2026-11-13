@@ -5,6 +5,21 @@ public class Vehiculo {
 	private String modelo;
 	private int anio;
 	private double precio;
+	
+	//----METODOS CONSTRUCTOR----
+	public Vehiculo() {
+		
+	}
+	public Vehiculo(String marca) {
+		this.marca=marca;
+	}
+	public Vehiculo(String marca,String modelo,int anio,double precio) {
+		this.marca=marca;
+		this.modelo=modelo;
+		this.anio=anio;
+		this.precio=precio;
+	}
+	
 	//----getters-setters----
 	public void setMarca(String marca) {
 		this.marca=marca;

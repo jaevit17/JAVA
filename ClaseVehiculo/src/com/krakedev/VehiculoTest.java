@@ -23,6 +23,13 @@ public class VehiculoTest {
 		System.out.println("Marca: "+v2.getMarca());
 		System.out.println("Modelo: "+v2.getModelo());
 		
+		
+		Vehiculo v3=new Vehiculo("YAMAHA","R6",2020,3000.20);
+		System.out.println("Vehiculo 3: CREADO");
+		System.out.println("Año: "+v3.getAnio());
+		System.out.println("Marca: "+v3.getMarca());
+		System.out.println("Modelo: "+v3.getModelo());
+		
 	}
 
 }

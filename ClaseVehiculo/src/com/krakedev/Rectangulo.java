@@ -3,6 +3,12 @@ package com.krakedev;
 public class Rectangulo {
 	private int base;
 	private int altura;
+	
+	//----CONSTRUCTOR----
+	public Rectangulo(int base,int altura) {
+		this.base=base;
+		this.altura=altura;
+	}
 	//----getters-setters----
 	public void setBase(int base) {
 		this.base=base;

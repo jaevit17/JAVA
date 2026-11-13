@@ -3,6 +3,11 @@ package com.krakedev;
 public class Cuadrado {
 	
 	private double lado;
+	
+	//----CONSTRUCTOR----
+	public Cuadrado(double lado) {
+		this.lado=lado;
+	}
 	//----getters-setters----
 	public void setLado(double lado) {
 		this.lado=lado;
