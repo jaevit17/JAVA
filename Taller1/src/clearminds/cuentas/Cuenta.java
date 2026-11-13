@@ -33,7 +33,7 @@ public class Cuenta {
 		this.tipo=tipo;
 		this.saldo=saldo;
 	}
-	//----CONSTRUCTORES----
+	//----METODOS----
 	public void imprimir() {
 		System.out.println("         CUENTA");
 		System.out.println("************************");
