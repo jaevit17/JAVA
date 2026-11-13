@@ -49,7 +49,7 @@ public class Cuenta {
 		System.out.println("╰┈➤ Numero: "+id);
 		System.out.println("╰┈➤ Categoria: "+tipo);
 		System.out.println("╰┈➤ Dinero: USD "+saldo);
-		System.out.println("          ✈︎-----");
+		System.out.println("  ✈︎========================");
 	}
 		
 	
