@@ -3,13 +3,9 @@ package com.krakedev;
 public class TestCuadrado {
 
 	public static void main(String[] args) {
-		Cuadrado figura1=new Cuadrado();
-		Cuadrado figura2=new Cuadrado();
-		Cuadrado figura3=new Cuadrado();
-		
-		figura1.setLado(8);
-		figura2.setLado(4);
-		figura3.setLado(15);
+		Cuadrado figura1=new Cuadrado(8);
+		Cuadrado figura2=new Cuadrado(4);
+		Cuadrado figura3=new Cuadrado(15);
 
 		double resultA1=figura1.calcularArea();
 		double resultP1=figura1.calcularPerimetro();
